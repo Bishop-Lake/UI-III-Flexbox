@@ -134,7 +134,33 @@ nav a:hover {
 	color: white;
 }
 
+/*services footer*/
+
+.services-footer {
+	display: flex;
+	width: 100%;
+	aligh-items: stretch;
+	justify-content: space-between;
+}
+
+.services-footer-icon {
+	margin: 20px 0px;
+	width: 420px;
+}
+
 .ul-fix {
 	list-style-type: square;
-	margin: 0px 20px;
+	margin: 20px 0px;
+	list-style-position: inside;
+
+}
+
+.ul-fix li {
+	margin-bottom: 10px;
+}
+
+.copywrite {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
