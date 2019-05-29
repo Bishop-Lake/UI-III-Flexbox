@@ -203,8 +203,43 @@ nav a:hover {
 	width: 350px;
 }
 
+.middle-img {
+	width: 100%;
+}
 
+.middle-section {
+	display: flex;
+	align-content: space-between;
+	align-items: stretch;
+	margin: 20px 0px;
+}
 
+.bottom-section {
+	display: flex;
+	align-content: space-between;
+	align-items: stretch;
+	margin: 20px 0px;
+}
+
+.bottom-item:not(:last-child) {
+	padding: 0px 20px 0px 0px;
+}
+
+.index-footer {
+	margin-top: 20px;
+}
+
+.adress {
+	margin-bottom: 10px;
+}
+
+.phone {
+	margin-bottom: 10px;
+}
+
+.email {
+	margin-bottom: 10px;
+}
 /*copywrite*/
 
 .copywrite {
