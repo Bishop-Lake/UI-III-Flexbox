@@ -139,7 +139,7 @@ nav a:hover {
 .services-footer {
 	display: flex;
 	width: 100%;
-	aligh-items: stretch;
+	align-items: stretch;
 	justify-content: space-between;
 }
 
@@ -158,6 +158,54 @@ nav a:hover {
 .ul-fix li {
 	margin-bottom: 10px;
 }
+
+/*index page*/
+
+.top-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-content-left {
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.top-content-left h1 {
+	margin: 0px 80px;
+	margin-bottom: 20px;
+	font-size: 80px;
+	text-align: center;
+}
+
+.top-content-left button {
+	border: 1px solid black;
+	background: white;
+	padding: 8px 40px;
+}
+
+.top-content-left button:hover {
+	border: 1px solid black;
+	background: black;
+	padding: 8px 40px;
+	color: white;
+}
+
+.top-content-right {
+	margin: 40px 0px;
+}
+
+.top-content-right img {
+	width: 350px;
+}
+
+
+
+/*copywrite*/
 
 .copywrite {
 	display: flex;
